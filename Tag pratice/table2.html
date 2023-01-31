@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn table</title>
+    <style>
+        table,tr,td,th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!--First row-->
+        <tr>
+            <th colspan="2">
+                Month
+            </th>
+            <th>
+                Amount
+            </th>
+        </tr>
+        <tr>
+            <!--Second row-->
+            <th>Jan</th>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <!--Third Row-->
+            <th rowspan="3">Feb</th>
+            <td>20000</td>
+        </tr>
+        <tr>
+            <!--Fourth row-->
+            <th>March</th>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <th>April</th>
+            <td>40000</td>
+        </tr>
+    </table>
+</body>
+</html>

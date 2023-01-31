@@ -1,0 +1,28 @@
+
+
+/* These will apply on all root html tags */
+:root {
+    /* Define variable globally */
+    --dark-blue : #0000FF;
+}
+
+* {
+    --dark-red: #FFFF00;
+}
+
+.container {
+    background-color: brown;
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+    background-color: var(--dark-blue);
+    background-color: var(--dark-red);
+}
+
+.box {
+    background-color: aqua;
+    border: 1px solid green;
+    /* work in these scope only - local variable */
+    /* --dark-blue : #0000FF; */
+    color: var(--dark-blue);
+}

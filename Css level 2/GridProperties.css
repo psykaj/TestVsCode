@@ -1,0 +1,67 @@
+.container {
+    background-color: yellow;
+    border: 2px solid brown;
+    height: 700px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: repeat(2,100px);
+    grid-template-columns: repeat(3,100px);
+
+    grid-gap: 10px;
+
+    /* x-axis/main axis pe kaam karta hai */
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* y axis / cross axis pe kaam karta hai */
+    /* align-items: start;
+    align-items: end;
+    align-items: center;
+    align-items: baseline; */
+    /* Default property align-item:stretch */
+    /* align-items: stretch;  */
+
+    /* vertical axis k according content kaise place hoga uski baat hoti hai */
+    /* align-content: space-between; */
+    
+    /* These property works for content */
+    /* justify-content: center;
+    align-content: center; */
+
+    /* same as above properties */
+    /* place-content: center; */
+
+    /* These property works for items */
+    /* justify-items: center;
+    align-items: center; */
+
+    /* same as above properties */
+    /* place-items: center; */
+}
+
+.box {
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+
+#box1 {
+    /* Horizontal axis pe kaam hota hai */
+    /* justify-self and align-self works in grid-item / child grid */
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+
+    /* vertical axis pe kaam hota hai */
+    /* align-self: stretch;
+    align-self: center; */
+
+    /* specific to paticular item */
+    /* place-self: center; */
+
+
+}
